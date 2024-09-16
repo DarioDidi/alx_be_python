@@ -1,9 +1,10 @@
 size = int(input("Enter the size of the pattern:"))
-
-for i in range(size):
+row = size + 0
+while size > 0:
     for j in range(size):
         print("*", end="")
-    print("")
+    print("\n")
+    size -= 1
 
 
 
