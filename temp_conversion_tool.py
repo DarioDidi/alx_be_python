@@ -21,4 +21,4 @@ def main():
         case _:
             output =  "Invalid temperature. Please enter a numeric value."
     print(output)
-main()
+# main()
