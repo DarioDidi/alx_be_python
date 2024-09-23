@@ -10,6 +10,6 @@ def calculate_future_date():
     future_date = future_date.strftime("%Y-%m-%d")
     print(f"Future date: {future_date}")
     
-if __name__ == "__main__":
-    display_current_datetime()
-    calculate_future_date()
+# if __name__ == "__main__":
+#     display_current_datetime()
+#     calculate_future_date()
