@@ -16,7 +16,7 @@ class TestSimpleCalculator(TestCase):
         a = 10; b = 2; r = a - b
         self.assertEqual(self.calc.subtract(a, b), r)
     
-    def test_multiply(self):
+    def test_multiplication(self):
         a = 10; b = 2; r = a * b
         self.assertEqual(self.calc.multiply(a,b), r)
     
