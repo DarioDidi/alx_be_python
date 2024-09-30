@@ -12,7 +12,7 @@ class TestSimpleCalculator(TestCase):
         a = 10; b = 2; r = a + b
         self.assertEqual(self.calc.add(a,b), r)
 
-    def test_subtaction(self):
+    def test_subtraction(self):
         a = 10; b = 2; r = a - b
         self.assertEqual(self.calc.subtract(a, b), r)
     
