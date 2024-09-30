@@ -20,7 +20,7 @@ class TestSimpleCalculator(TestCase):
         a = 10; b = 2; r = a * b
         self.assertEqual(self.calc.multiply(a,b), r)
     
-    def test_divide(self):
+    def test_division(self):
         a = 10; b = 2; c = 0; r = a / b
         self.assertIsNone(self.calc.divide(a, c))
         self.assertEqual(self.calc.divide(a, b), r)
