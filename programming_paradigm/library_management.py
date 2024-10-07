@@ -2,13 +2,13 @@ class Book:
     def __init__(self, title=None, author=None):
         self.title = title
         self.author = author
-        self. _is_checked_out= False
+        self. _is_checked_out = False
 
     def check_out(self):
-        self._is_checked_out= True
+        self._is_checked_out = True
 
     def return_book(self):
-        self._is_checked_out= False
+        self._is_checked_out = False
 
     def available(self):
         return not self._is_checked_out
